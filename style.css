@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{
+    text-align: center;
+    background-color:rgb(126, 126, 219) ;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.body{
+    min-height: 100vh;
+    /* max-height: 100%;
+    max-width: 100%; */
+
+    background-color: rgb(126, 126, 219);
+    /* background-image: url(snake.jpg); */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#board{
+/* background-color: blue; */
+background: linear-gradient(rgb(106, 241, 106),rgb(240, 240, 102));
+width: 55vw;
+height: 90vh;
+border: 2px solid black;
+display: grid;
+grid-template-rows: repeat(18,1fr);
+grid-template-columns : repeat(18,1fr);
+}
+
+.Scores{
+    height:auto;
+    width: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+   
+   
+    
+}
+#scoreBox{
+    /* border: 2px solid red; */
+    margin-right: 150px;
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -250px;
+    
+
+}
+
+#highScoreBox{
+    /* position: absolute;
+    top: 200px;
+    right: 50px; */
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    margin-right: 150px;
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: bold;
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+.head{
+
+    background:linear-gradient(rgb(255, 94, 0),rgb(114, 114, 241));
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.snake{
+    background:linear-gradient(rgb(243, 114, 243),rgb(247, 125, 145)
+    );
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.food{
+    background:linear-gradient(red,purple);
+    /* background-color: rgb(248, 48, 81); */
+    border: 2px solid rgb(141, 140, 140);
+    border-radius: 12px;
+
+
+}
